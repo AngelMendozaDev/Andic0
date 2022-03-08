@@ -1,0 +1,183 @@
+@font-face {
+    font-family: 'Monse';
+    src: url('../Font/Monse.ttf');
+}
+
+
+/* Iniciamos aqui */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.banner {
+    margin-top: 60px;
+    height: 80vh;
+    background-color: #c8dafe;
+    background-image: url('../Media/Pictures/Logros.png');
+    background-size: auto;
+    background-repeat: repeat;
+}
+
+.texto {
+    font-size: 40px;
+    font-family: Monse;
+    position: absolute;
+    color: #6b6d6e;
+    text-decoration: underline;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* Title Time Line */
+
+.title-box {
+    padding: 10px;
+    background-color: #f35b68;
+    color: white;
+    text-align: center;
+    position: relative;
+    height: 200px;
+}
+
+.title-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    font-size: 25px;
+}
+
+
+/* Time Line Angel */
+
+.year {
+    font-family: Monse;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.timeline-text {
+    text-align: justify;
+    padding: 0px 5px;
+}
+
+.time-line {
+    color: white;
+    padding: 0px 15px;
+    margin-top: 0px;
+    position: relative;
+}
+
+.timeline-list {
+    background-image: url('../Media/Icons/Logo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;
+    color: white;
+    list-style: none;
+    padding: 0px;
+    padding: 50px 0;
+}
+
+.timeline-list::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 100%;
+    z-index: 0.5;
+}
+
+.timeline-item {
+    width: 6px;
+    position: relative;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.timeline-item ::after {
+    content: "▼";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%, -50%);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: white;
+    color: #4169e2;
+    font-size: 20px;
+    text-align: center;
+    z-index: 2;
+}
+
+.timeline-data {
+    width: 400px;
+    background-color: #f45b69;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.timeline-item:nth-child(even) .timeline-data {
+    margin-left: -400px;
+}
+
+.timeline-item:nth-child(odd) .timeline-data {
+    margin-left: 40px;
+}
+
+.timeline-list::after {
+    content: "";
+    height: 90%;
+    width: 5px;
+    background-color: white;
+    position: absolute;
+    left: 51.06%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+@media(max-width:700px) {
+    .banner {
+        margin-top: 100px;
+        height: 80vh;
+        background-color: #c8dafe;
+        background-size: cover;
+        background-position: top;
+    }
+    .timeline-list {
+        background-image: none;
+        background-color: white;
+    }
+    .timeline-data {
+        width: 90vw;
+        margin-bottom: 15px;
+    }
+    .timeline-item:nth-child(even) .timeline-data {
+        margin-left: 0px;
+    }
+    .timeline-item:nth-child(odd) .timeline-data {
+        margin-left: 0px;
+    }
+    .timeline-item {
+        margin: 0px;
+    }
+    .timeline-list::after {
+        top: 50%;
+        left: 20px;
+    }
+    .timeline-item ::after {
+        left: -10px;
+    }
+}

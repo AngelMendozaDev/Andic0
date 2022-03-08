@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Monse';
+    src: url('../Font/Monse.ttf');
+}
+
+@font-face {
+    font-family: 'Regular';
+    src: url('../Font/Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Cursiva';
+    src: url('../Font/Manoescrito.ttf');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#myMenu {
+    height: 70px;
+}
+
+.menu {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    padding: 15px 0px;
+    z-index: 3;
+}
+
+
+/* Footer */
+
+footer {
+    font-family: Monse;
+    background-color: #1C2833;
+    padding: 30px;
+    color: #fff;
+}
+
+.face {
+    color: #3B5998;
+}
+
+.whats {
+    color: #075E54;
+}
+
+.twitt {
+    color: #34B7F1;
+}
+
+.redes-list {
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    width: 300px;
+}
+
+.redes-item {
+    flex-grow: 1;
+    text-align: left;
+    font-size: 40px;
+}
+
+.footer-title {
+    font-size: 25px;
+}
+
+.aux {
+    text-align: right;
+}
+
+@media(max-width: 800px) {
+    .aux {
+        display: none;
+    }
+    #myMenu {
+        height: auto;
+        padding: 0px;
+    }
+}

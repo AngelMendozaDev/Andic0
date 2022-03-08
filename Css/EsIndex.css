@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'Monse';
+    src: url('../Font/Monse.ttf');
+}
+
+@font-face {
+    font-family: 'Regular';
+    src: url('../Font/Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Cursiva';
+    src: url('../Font/Manoescrito.ttf');
+}
+
+#myCarousel {
+    margin-top: 10px;
+    display: block;
+}
+
+#myCarouselSm {
+    margin-top: 10px;
+    display: none;
+}
+
+.my-card {
+    background-color: #DDE8F0;
+    border: solid 2px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.card-img {
+    width: 220px;
+    height: 220px;
+    margin: auto;
+    border-radius: 180px;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.card-img img {
+    width: 100%;
+}
+
+.card-title {
+    text-align: center;
+    font-family: Monse;
+    font-weight: 700;
+    color: #6b757e;
+}
+
+.card-text {
+    text-align: justify;
+    font-size: 15px;
+    font-family: Regular;
+}
+
+.cont-row {
+    position: relative;
+}
+
+.text-box-row {
+    position: absolute;
+    width: 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.row-title {
+    font-family: Monse;
+    opacity: 0.6;
+}
+
+.row-subtitle {
+    font-family: Monse;
+    opacity: 0.4;
+    font-size: 20px;
+}
+
+.row-text {
+    font-family: Regular;
+    text-align: justify;
+}
+
+.text-small {
+    font-family: Cursiva;
+    font-size: 25px;
+}
+
+.Cuadro {
+    width: 400px;
+    height: 400px;
+}
+
+.img-cuadrado {
+    width: 100%;
+}
+
+@media(max-width:600px) {
+    .Cuadro {
+        width: 100%;
+        height: auto;
+    }
+    .text-box-row {
+        position: inherit;
+        width: 90%;
+    }
+    #myCarousel {
+        margin-top: 100px;
+        display: none;
+    }
+    #myCarouselSm {
+        margin-top: 100px;
+        display: block;
+    }
+}

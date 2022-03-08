@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'Monse';
+    src: url('../Font/Monse.ttf');
+}
+
+@font-face {
+    font-family: 'Cursiv';
+    src: url('../Font/Manoescrito.ttf');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.my-contenedor {
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.title-contact {
+    font-family: Monse;
+}
+
+.subtitle-contact {
+    font-family: Monse;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.text-plain {
+    font-family: Monse;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.marca {
+    font-weight: 700;
+    font-family: Cursiv;
+    font-size: 15px;
+    text-align: right;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.text-black {
+    font-weight: 700;
+    color: black;
+    font-family: Monse;
+    font-size: 20px;
+}
+
+.text-mail {
+    font-weight: 700;
+    font-family: Monse;
+    font-size: 20px;
+}
+
+.contact-form {
+    width: 100%;
+}
+
+.group-form {
+    display: flex;
+    width: 100%;
+}
+
+.input-grup {
+    width: 50%;
+    margin: auto;
+}
+
+label {
+    font-family: Monse;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.my-btn {
+    padding: 20px;
+    width: 200px;
+    border: none;
+    background-color: steelblue;
+    color: #fff;
+    font-family: Monse;
+    font-size: 20px;
+    transition: all 1s;
+}
+
+.my-btn:hover {
+    background-color: rgb(185, 181, 181);
+    color: black;
+    transition: all 1s;
+}
