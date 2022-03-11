@@ -53,7 +53,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Eventos &nbsp;<i
+                        <a class="nav-link active" aria-current="page" href="events.php">Eventos &nbsp;<i
                                 class="fas fa-calendar-alt icon-option"></i></a>
                     </li>
                     <li class="nav-item">
