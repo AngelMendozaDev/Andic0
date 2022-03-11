@@ -76,10 +76,10 @@
 }
 
 .timeline-list {
-    background-image: url('../Media/Icons/Logo.png');
-    background-position: center;
+    background-image: url('../Media/Pictures/Fondo2.jpeg');
+    background-position: bottom;
     background-repeat: no-repeat;
-    background-attachment: local;
+    background-attachment: fixed;
     background-size: cover;
     color: white;
     list-style: none;

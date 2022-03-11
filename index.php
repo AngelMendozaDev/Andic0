@@ -4,8 +4,7 @@
 <!-- Carrousel -->
 <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
-            aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
@@ -13,22 +12,22 @@
         <div class="carousel-item active">
             <img src="Media/Pictures/Img1.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p>Some representative placeholder content for the first slide.</p>
+                <h5>La Familia ANDIC. A.C.</h5>
+                <p>Unete a esta gran familia!.</p>
             </div>
         </div>
         <div class="carousel-item">
-            <img src="Media/Pictures/Img2.jpg" class="d-block w-100" alt="...">
+            <img src="Media/Pictures/kids.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>Some representative placeholder content for the second slide.</p>
+                <h5>...</h5>
+                <p></p>
             </div>
         </div>
         <div class="carousel-item">
-            <img src="Media/Pictures/Img3.jpg" class="d-block w-100" alt="...">
+            <img src="Media/Pictures/Sumate.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-                <p>Some representative placeholder content for the third slide.</p>
+                <h5>..</h5>
+                <p></p>
             </div>
         </div>
     </div>
@@ -45,8 +44,7 @@
 <!-- Carousel Small -->
 <div id="myCarouselSm" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
-        <button type="button" data-bs-target="#myCarouselSm" data-bs-slide-to="0" class="active" aria-current="true"
-            aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarouselSm" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#myCarouselSm" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#myCarouselSm" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
@@ -98,8 +96,7 @@
                     Conoce un poco de lo que realizamos y nuestro camino por esta noble misión.
                 </p>
 
-                <a href="conocenos.php" class="btn btn-primary">Ver mas detalles <i class="fa fa-angle-double-right"
-                        aria-hidden="true"></i></a>
+                <a href="conocenos.php" class="btn btn-primary">Ver mas detalles <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
 
             </div>
         </div>
@@ -116,8 +113,7 @@
                     han tenido hasta hoy
                 </p>
 
-                <a href="resultados.php" class="btn btn-warning">Ver mas detalles <i class="fa fa-angle-double-right"
-                        aria-hidden="true"></i></a>
+                <a href="resultados.php" class="btn btn-warning">Ver mas detalles <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
 
             </div>
         </div>
@@ -134,8 +130,7 @@
                     al objetivo común de crear mejores condiciones de vida para el futuro.
                 </p>
 
-                <a href="sumate.php" class="btn btn-success">Ver mas detalles <i class="fa fa-angle-double-right"
-                        aria-hidden="true"></i></a>
+                <a href="sumate.php" class="btn btn-success">Ver mas detalles <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
 
             </div>
         </div>
@@ -151,12 +146,12 @@
                 <h2 class="row-title">Campaña Cero Hambre</h2>
                 <h3 class="row-subtitle">Santa Catarina Yecahuizotl</h3>
                 <p class="row-text">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, animi.
-                    Necessitatibus saepe earum rerum iste inventore accusantium quibusdam possimus
-                    fugiat hic consequatur, laborum aut velit!
+                    El programa busca apoyar a la población más desprotegida con el abasto de productos básicos de alimentación y salud.
+                    <br>
+                    Esto se logra mediante la recolección y entrega de donativos en especie a las personas que más lo necesiten.
                 </p>
                 <br>
-                <span class="text-small">Frase bien bonita</span>
+                <span class="text-small">“El peor enemigo de la lucha contra el hambre, es la indiferencia”</span>
                 <br>
                 <a href="#" class="btn btn-success">Conoce mas</a>
             </div>
@@ -175,7 +170,7 @@
     <div class="row mb-5 mt-5">
         <div class="col-12 col-md-5 mx-auto">
             <div class="Cuadro">
-                <img src="Media/Pictures/Ranch.jpg" alt="Rancho" class="img-cuadrado">
+                <img src="Media/Pictures/Sumat.jpeg" alt="Rancho" class="img-cuadrado">
             </div>
         </div>
         <div class="col-12 col-md-6 mx-auto cont-row">
@@ -183,12 +178,10 @@
                 <h2 class="row-title">Desarrollo Económico</h2>
                 <h3 class="row-subtitle">Yosondua - Oaxaca</h3>
                 <p class="row-text">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, animi.
-                    Necessitatibus saepe earum rerum iste inventore accusantium quibusdam possimus
-                    fugiat hic consequatur, laborum aut velit!
+                    Contribuir al desarrollo económico de la región mediante la promoción de programas y proyectos estratégicos orientados a potenciar nuevas áreas de desarrollo y sus posibles inversionistas.
                 </p>
                 <br>
-                <span class="text-small">Lorem ipsum dolor sit amet.</span>
+                <span class="text-small">Algunas personas quieren que algo ocurra, otras sueñan con que pasara, otras hacen que suceda</span>
             </div>
         </div>
     </div>
@@ -197,4 +190,4 @@
 
 </div>
 
-<?php require_once "footer.php"?>
+<?php require_once "footer.php" ?>

@@ -27,9 +27,9 @@
                 </ul>
             </div>
             <h1 class="footer-title">ANDIC A.C.</h1>
-            <h6><span class="negritas">Telefono:</span> 1234567891</h6>
-            <a href="mailto:info.ac@andic.org">info.ac@andic.org</a>
-            <p>some address in the city number #123, Tlahuac, CDMX</p>
+            <h6><span class="negritas">Telefono:</span> 55 3114 9389</h6>
+            <a href="mailto:andic.a.c.2021@gmail.com">andic.a.c.2021@gmail.com</a>
+            <p>Francisco Andrade #22 Mz.24, Santa Catarina, Tlahuac</p>
         </div>
         <div class="col-12 col-md-5 aux">
             <img src="Media/Pictures/Mundo-Mano.png" width="200px" alt="">

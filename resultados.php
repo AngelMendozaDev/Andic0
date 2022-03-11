@@ -1,8 +1,8 @@
-<?php 
-    require_once "header.php";
-    require_once "Class/General.php";
-    $class = new general;
-    $package = $class->getAcciones();
+<?php
+require_once "header.php";
+require_once "Class/General.php";
+$class = new general;
+$package = $class->getAcciones();
 ?>
 <link rel="stylesheet" href="Css/EsResultados.css">
 
@@ -22,16 +22,20 @@
 
 <div class="time-line">
     <ul class="timeline-list">
-    <?php while($data = $package->fetch_array()){ ?>
-        <li class="timeline-item">
-            <div class="timeline-data">
-                <center><span class="year"><?php echo $data['año']; ?></span></center>
-                <p class="timeline-text">
-                    <?php echo $data['texto']; ?>
-                </p>
-                <img src="Media/Pictures/Sumat.jpeg" width="100%" alt="">
-            </div>
-        </li>
+        <?php while ($data = $package->fetch_array()) { ?>
+            <li class="timeline-item">
+                <div class="timeline-data">
+                    <center>
+                        <span class="year"><?php echo $data['ano']; ?></span>
+                        <br>
+                        <span class="year"><?php echo $data['titulo']; ?></span>
+                    </center>
+                    <p class="timeline-text">
+                        <?php echo $data['texto']; ?>
+                    </p>
+                    <img src="Media/Pictures/<?php echo $data['media'] ?>" width="100%" alt="">
+                </div>
+            </li>
         <?php } ?>
     </ul>
 </div>

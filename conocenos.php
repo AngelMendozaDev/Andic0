@@ -29,7 +29,7 @@
         </div>
         <div class="col-12 col-md-5">
             <div class="imagen-row">
-                <img src="Media/Pictures/image.jpg" alt="image">
+                <img src="Media/Icons/Logo.png" alt="image">
             </div>
         </div>
     </div>

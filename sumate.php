@@ -49,9 +49,9 @@
             </p>
 
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#voluntierModal">
+            <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#voluntierModal">
                 <i class="fa fa-child" aria-hidden="true"></i> Postularme como Voluntario
-            </button>
+            </button> -->
         </div>
     </div>
 
@@ -71,10 +71,10 @@
                 <br><br>
                 3.- Compromiso y vocación;
             </p>
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#serviceSModal">
+            <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#serviceSModal">
                 <i class="fa fa-thumbs-up" aria-hidden="true"></i>
                 Quiero hacer mi servicio aqui!
-            </button>
+            </button> -->
         </div>
 
         <div class="col-12 col-md-4 mx-auto img-vb">
