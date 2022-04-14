@@ -3,7 +3,7 @@ require_once "header.php";
 require_once "Class/Conector.php";
 $model = new conector();
 ?>
-<link rel="stylesheet" href="css/estilos.css">
+<link rel="stylesheet" href="Css/estilos.css">
 
     <header class="my-nav">
         <div class="nav-menus">
