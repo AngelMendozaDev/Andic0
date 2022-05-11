@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="Lib/Bootstrap5/css/bootstrap.min.css">
     <link rel="stylesheet" href="Lib/FontAwesome/css/all.min.css">
     <link rel="stylesheet" href="Css/EsHeader.css">
+    <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v13.0" nonce="6kNHXlLM"></script>
 </head>
 
 <body>
