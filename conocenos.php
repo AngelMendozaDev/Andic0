@@ -28,9 +28,14 @@
             <p class="text-history">PRESIDENTE DE ANDIC A.C.</p>
         </div>
         <div class="col-12 col-md-5">
-            <div class="imagen-row">
-                <img src="Media/Icons/Logo.png" alt="image">
+            <div class="fb-page" data-href="https://www.facebook.com/JOSUE-GOMEZ-1072990442838015" data-tabs="timeline" data-width="350" data-height="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true">
+                <blockquote cite="https://www.facebook.com/JOSUE-GOMEZ-1072990442838015" class="fb-xfbml-parse-ignore">
+                    <a href="https://www.facebook.com/JOSUE-GOMEZ-1072990442838015">JOSUE GOMEZ</a>
+                </blockquote>
             </div>
+            <!--div class="imagen-row">
+                <img src="Media/Icons/Logo.png" alt="image">
+            </div-->
         </div>
     </div>
 
