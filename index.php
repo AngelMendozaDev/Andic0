@@ -180,6 +180,13 @@
                 <p class="row-text">
                     Contribuir al desarrollo económico de la región mediante la promoción de programas y proyectos estratégicos orientados a potenciar nuevas áreas de desarrollo y sus posibles inversionistas.
                 </p>
+                <center>
+                    <a href="programa.php" class="btn btn-primary">
+                        <i class="fa fa-plus-circle" aria-hidden="true"></i> 
+                        &nbsp;
+                        Saber más
+                    </a>
+                </center>
                 <br>
                 <span class="text-small">Algunas personas quieren que algo ocurra, otras sueñan con que pasara, otras hacen que suceda</span>
             </div>

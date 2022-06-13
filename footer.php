@@ -28,7 +28,7 @@
             </div>
             <h1 class="footer-title">ANDIC A.C.</h1>
             <h6><span class="negritas">Telefono:</span> 55 3114 9389</h6>
-            <a href="mailto:andic.a.c.2021@gmail.com">andic.a.c.2021@gmail.com</a>
+            <a href="mailto:vinculacion@andic.org.mx">vinculacion@andic.org.mx</a>
             <p>Francisco Andrade #22 Mz.24, Santa Catarina, Tlahuac</p>
         </div>
         <div class="col-12 col-md-5 aux">
