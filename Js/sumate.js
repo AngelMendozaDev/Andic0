@@ -1,36 +1,31 @@
 function newUser() {
-    $.ajax({
-        url: 'Controllers/newUs.php',
-        type: 'POST',
-        data: $('#form-voluntieer').serialize(),
-        success: function(response) {
-            if (response == 1) {
-                $('#form-voluntieer')[0].reset();
-                $('#closeModal').click();
-                swal({ title: "Registro exitoso!", text: "Nos pondremos en contracto contigo \n \n ANDIC A.C.", icon: "success" });
-            } else if (response == -1) {
-                $('#form-voluntieer')[0].reset();
-                $('#closeModal').click();
-                swal({ title: "Registro duplicado!", text: "Parece que ya te registraste con anterioridad \n \n ANDIC A.C.", icon: "info" });
+        $.ajax({
+            url:"Controllers/vol.php",
+            type:"POST",
+            data: $('#form-voluntieer').serialize(),
+            success:function(response){
+                console.log(response);
+                if(response.trim() == 1){
+                    swal("Meensaje Enviado!","Nos pondremos en contacto contigo muy pronto.","success");
+                    $('#form-voluntieer')[0].reset();
+                }
             }
-        }
-    });
-    return false;
+        });
+        return false;
 }
 
 function serviceSocial() {
-    $.ajax({
-        url: 'Controllers/serviceSocial.php',
-        type: 'POST',
-        data: $('#serviceS-form').serialize(),
-        success: function(response) {
-            if (response == 1) {
-                $('#serviceS-form')[0].reset();
-                $('#closeModalS').click();
-                swal("ANDIC A.C.", "Información enviada correctamente!", "success");
+        $.ajax({
+            url:"Controllers/ss.php",
+            type:"POST",
+            data: $('#serviceS-form').serialize(),
+            success:function(response){
+                console.log(response);
+                if(response.trim() == 1){
+                    swal("Meensaje Enviado!","Nos pondremos en contacto contigo muy pronto.","success");
+                    $('#serviceS-form')[0].reset();
+                }
             }
-        }
-    });
-
-    return false;
+        });
+        return false;
 }

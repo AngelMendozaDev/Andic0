@@ -153,7 +153,11 @@
                 <br>
                 <span class="text-small">“El peor enemigo de la lucha contra el hambre, es la indiferencia”</span>
                 <br>
-                <a href="#" class="btn btn-success">Conoce mas</a>
+                <a href="programa.php" class="btn btn-primary">
+                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                    &nbsp;
+                    Saber más
+                </a>
             </div>
         </div>
 
@@ -180,13 +184,13 @@
                 <p class="row-text">
                     Contribuir al desarrollo económico de la región mediante la promoción de programas y proyectos estratégicos orientados a potenciar nuevas áreas de desarrollo y sus posibles inversionistas.
                 </p>
-                <center>
-                    <a href="programa.php" class="btn btn-primary">
-                        <i class="fa fa-plus-circle" aria-hidden="true"></i> 
+                <!--center>
+                    <a href="#" class="btn btn-primary">
+                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
                         &nbsp;
                         Saber más
                     </a>
-                </center>
+                </!--center-->
                 <br>
                 <span class="text-small">Algunas personas quieren que algo ocurra, otras sueñan con que pasara, otras hacen que suceda</span>
             </div>

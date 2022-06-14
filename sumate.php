@@ -49,9 +49,9 @@
             </p>
 
             <!-- Button trigger modal -->
-            <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#voluntierModal">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#voluntierModal">
                 <i class="fa fa-child" aria-hidden="true"></i> Postularme como Voluntario
-            </button> -->
+            </button>
         </div>
     </div>
 
@@ -71,10 +71,10 @@
                 <br><br>
                 3.- Compromiso y vocación;
             </p>
-            <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#serviceSModal">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#serviceSModal">
                 <i class="fa fa-thumbs-up" aria-hidden="true"></i>
                 Quiero hacer mi servicio aqui!
-            </button> -->
+            </button>
         </div>
 
         <div class="col-12 col-md-4 mx-auto img-vb">
@@ -98,40 +98,26 @@
                         <i class="fab fa-yelp requerido" aria-hidden="true"></i> &nbsp; Campos Obligatorios
                     </div>
                     <div class="form-group mb-3">
-                        <label for="">Nombre(s): <i class="fab fa-yelp requerido" aria-hidden="true"></i></label>
-                        <input type="text" class="form-control" maxlength="30" style="text-transform: uppercase;"
-                            name="Name" required>
-                    </div>
-
-                    <div class="form-group mb-3">
-                        <label for="">Apellido Paterno: <i class="fab fa-yelp requerido" aria-hidden="true"></i></label>
-                        <input type="text" class="form-control" maxlength="30" style="text-transform: uppercase;"
-                            name="App" required>
-                    </div>
-
-                    <div class="form-group mb-3">
-                        <label for="">Apellido Materno: <i class="fab fa-yelp requerido" aria-hidden="true"></i></label>
-                        <input type="text" class="form-control" maxlength="30" style="text-transform: uppercase;"
-                            name="Apm" required>
+                        <label for="">Nombre: <i class="fab fa-yelp requerido" aria-hidden="true"></i></label>
+                        <input type="text" class="form-control" maxlength="60" style="text-transform: uppercase;" name="nameV" required>
                     </div>
 
                     <div class="form-group mb-3">
                         <label for="">Telefono: <i class="fab fa-yelp requerido" aria-hidden="true"></i></label>
-                        <input type="number" class="form-control" maxlength="10"
-                            oninput="if(this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
-                            name="Phone" required>
+                        <input type="number" class="form-control" maxlength="10" oninput="if(this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" name="phoneV" required>
                     </div>
 
                     <div class="form-group mb-3">
-                        <label for="">Correo Electronico: <i class="fab fa-yelp requerido"
-                                aria-hidden="true"></i></label>
-                        <input type="email" class="form-control" maxlength="60"
-                            oninput="if(this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
-                            name="Mail" required>
+                        <label for="">Correo Electronico: <i class="fab fa-yelp requerido" aria-hidden="true"></i></label>
+                        <input type="email" class="form-control" maxlength="60" name="mailV" required>
                     </div>
 
-                    <center><button class="btn btn-outline-success"><i class="fas fa-paper-plane"
-                                aria-hidden="true"></i> Postularme</button></center>
+                    <div class="form-group mb-3">
+                        <label for="">Como podrias ayudarnos?</label>
+                        <textarea name="msjV" cols="10" rows="3" class="form-control"></textarea>
+                    </div>
+
+                    <center><button class="btn btn-outline-success"><i class="fas fa-paper-plane" aria-hidden="true"></i> Postularme</button></center>
 
                 </form>
             </div>
@@ -155,14 +141,12 @@
                 <form action="#" id="serviceS-form" onsubmit="return serviceSocial()">
                     <div class="form-group mb-3">
                         <label for="">Nombre de Interesado:</label>
-                        <input type="text" class="form-control" maxlength="50" style="text-transform: uppercase;"
-                            name="person" required>
+                        <input type="text" class="form-control" maxlength="50" style="text-transform: uppercase;" name="person" required>
                     </div>
 
                     <div class="form-group mb-3">
                         <label>Nombre de la Institucion:</label>
-                        <input type="text" class="form-control" maxlength="80" style="text-transform: uppercase;"
-                            name="school" required>
+                        <input type="text" class="form-control" maxlength="80" style="text-transform: uppercase;" name="school" required>
                     </div>
 
                     <div class="form-group mb-3">
@@ -172,15 +156,12 @@
 
                     <div class="form-group mb-3">
                         <label>Numero de Contacto</label>
-                        <input type="number" class="form-control" maxlength="10"
-                            oninput="if(this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
-                            name="phone" required>
+                        <input type="number" class="form-control" maxlength="10" oninput="if(this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" name="phone" required>
                     </div>
 
                     <div class="form-group mb-3">
                         <label for="">Mensaje:</label>
-                        <textarea name="message" cols="30" rows="5" class="form-control"
-                            placeholder="Cuentanos que conocimientos tienes..." maxlength="200"></textarea>
+                        <textarea name="msj" cols="30" rows="5" class="form-control" placeholder="Cuentanos que conocimientos tienes..." maxlength="200"></textarea>
                     </div>
 
                     <center>
@@ -192,8 +173,7 @@
                 </form>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" id="closeModalS" data-bs-dismiss="modal"
-                    hidden>Close</button>
+                <button type="button" class="btn btn-secondary" id="closeModalS" data-bs-dismiss="modal" hidden>Close</button>
             </div>
         </div>
     </div>
