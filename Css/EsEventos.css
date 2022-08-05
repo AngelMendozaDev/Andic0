@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.banner{
+    margin-top: 100px;
+    height: 50vh;
+    overflow: hidden;
+    background-image: url('../Media/Pictures/events.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    display: flex;
+}
+
+.text-box{
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 50%;
+    transform: translate(5%,-50%);
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.text-box h3{
+    font-size: 50px;
+}
+
+.text-box p{
+    font-size: 25px;
+}
+
+
+/*********************
+*Informacion de eventos
+*********************************/
+.event-detail{
+    padding: 10px;
+    display: flex;
+}
+
+#img-event{
+    width: 40%;
+    margin: auto;
+}
+
+.title-event{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#fechas{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#horario{
+    font-weight: 700;
+    font-family: cursive;
+}
+
+#descript{
+    text-align: justify;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.info-box{
+    width: 40%;
+    margin: auto;
+    align-items: center;
+    align-self: center;
+}
+
+/*
+Mobile View
+*/
+
+@media(max-width:700px){
+    .event-detail{
+        padding: 10px;
+        display: block;
+        margin-top: -10px;
+    }
+
+    #img-event{
+        width: 90%;
+        margin: auto;
+    }
+
+    .info-box{
+        width: 95%;
+        margin: auto;
+        align-items: center;
+        align-self: center;
+    }
+}

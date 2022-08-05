@@ -2,6 +2,9 @@
     <script src="Lib/jQuery.js"></script>
     <script src="Lib/Bootstrap5/js/bootstrap.min.js"></script>
     <script src="Lib/sweetalert.js"></script>
+    <script>
+        MyBaseURL = 'http://localhost/andicapp/';
+    </script>
 </body>
 
 <footer class="container-fluid">
